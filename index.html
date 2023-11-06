@@ -7,12 +7,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="favicon.ico"> 
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Calculator</title>
 </head>
 
 
 <body>
-    
+    <section>
+        <div class="container">
+            <div class="calculator">
+                <input type="text" id="output" placeholder="Enter here" readonly>
+
+                <!--Buttons-->
+
+                <button onclick="power()">^</button>
+                <button onclick="pi()">&pi;</button>
+                <button onclick="e()">e</button>
+                <button class="ac-button" onclick="clear()">C</button>
+                <button class="ac-button" onclick="del()">Del</button>
+
+
+                <button onclick="fact()">x!</button>
+                <button onclick="sqrt()">&Sqrt;</button>
+                <button class="btn">(</button>
+                <button class="btn">)</button>
+                <button class="btn">&divide;</button>
+
+
+                <button onclick="log()">log</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">&Cross;</button>
+
+
+                <button onclick="sin()">sin</button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">-</button>
+
+
+                <button onclick="cos()">cos</button>
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn">+</button>
+                
+
+                <button onclick="tan()">tan</button>
+                <button class="btn">%</button>
+                <button class="btn">0</button>
+                <button class="btn">.</button>
+                <button class="equal" onclick="result()">=</button>
+                
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-text">Made with <i class='bx bxs-heart' style='color:#f90202'></i> by PRC</div>
+            <a href="https://github.com/ParnaRoyChowdhury777"><i class='bx bxl-github' style='color:#111010'  ></i></a>
+        </div>
+    </footer>
     <script src="app.js"></script>
 </body>
 </html>

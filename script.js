@@ -1,5 +1,5 @@
 
-var screen = document.query(".screen");
+var screen = document.querySelector(".screen");
 var btn = document.querySelectorAll(".btn");
 
 for(item of btn){

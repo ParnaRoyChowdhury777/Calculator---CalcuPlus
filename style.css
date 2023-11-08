@@ -90,4 +90,8 @@ footer{
     font-weight: bolder;
 }
 
+.footer-text a{
+    text-decoration: none;
+}
+
 

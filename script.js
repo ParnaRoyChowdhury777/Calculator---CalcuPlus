@@ -1,5 +1,6 @@
-const result = document.getElementById("output");
-const btn = document.querySelectorAll(".btn");
+
+var screen = document.query(".screen");
+var btn = document.querySelectorAll(".btn");
 
 for(item of btn){
 item.addEventListener("click",(e)=>{
@@ -17,13 +18,13 @@ item.addEventListener("click",(e)=>{
         btn_text = "**";
     }
 
-    result.value += btn_text;
+    screen.value += btn_text;
 });
 }
 
 function result(){
     try{
-        result.value = eval(result.value);
+        screen.value = eval(screen.value);
     }
     catch(error){
         alert("Invalid!");
@@ -31,35 +32,35 @@ function result(){
 }
 
 function clear(){
-    result.value = "";
+    screen.value = "";
 }
 
 function pi(){
-    result.value = Math.PI;
+    screen.value = Math.PI;
 }
 
 function exp(){
-    result.value = Math.exp(result.value);
+    screen.value = Math.exp(screen.value);
 }
 
 function del(){
-    result.value = result.value.slice(0,-1);
+    screen.value = screen.value.slice(0,-1);
 }
 
 function sin(){
-    result.value = Math.sin(result.value);
+    screen.value = Math.sin(screen.value);
 }
 
 function cos(){
-    result.value = Math.cos(result.value);
+    screen.value = Math.cos(screen.value);
 }
 
 function tan(){
-    result.value = Math.tan(result.value);
+    screen.value = Math.tan(screen.value);
 }
 
 function log(){
-    result.value = Math.log(result.value);
+    screen.value = Math.log(screen.value);
 }
 
 
@@ -78,4 +79,6 @@ function fact(){
 function sqrt(){
     result.value = Math.sqrt(result.value);
 }
+
+
 

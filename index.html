@@ -16,52 +16,51 @@
     <section>
         <div class="container">
             <div class="calculator">
-                <input type="text" id="output" placeholder="Enter here" readonly>
+                <input type="text" class="screen" placeholder="Enter here" readonly/>
 
                 <!--Buttons-->
-
-                <button class="ac-button btn" onclick="clear()">C</button>
-                <button class="btn">^</button>
-                <button onclick="pi()" class="btn">&pi;</button>
-                <button onclick="exp()" class="btn">e</button>
-                <button class="ac-button btn" onclick="del()">Del</button>
-
-
-                <button onclick="fact()" class="btn">x!</button>
-                <button onclick="sqrt()" class="btn">&Sqrt;</button>
-                <button class="btn" onclick="display('(')">(</button>
-                <button class="btn" onclick="display(')')">)</button>
-                <button class="btn">&divide;</button>
+                <button type="button" class="ac-button btn" id="clear" onclick="clear()">C</button>
+                <button type="button" class="btn">^</button>
+                <button type="button" onclick="pi()" class="btn">&pi;</button>
+                <button type="button" onclick="exp()" class="btn" >e</button>
+                <button  class="ac-button btn" id="erase" onclick="del()">Del</button>
 
 
-                <button onclick="log()" class="btn">log</button>
-                <button class="btn">7</button>
-                <button class="btn">8</button>
-                <button class="btn">9</button>
-                <button class="btn">&Cross;</button>
+                <button type="button" onclick="fact()" class="btn" >x!</button>
+                <button type="button" onclick="sqrt()" class="btn" >&Sqrt;</button>
+                <button type="button" class="btn" >(</button>
+                <button type="button" class="btn" >)</button>
+                <button type="button" class="btn" >&divide;</button>
 
 
-                <button onclick="sin()" class="btn">sin</button>
-                <button class="btn">4</button>
-                <button class="btn">5</button>
-                <button class="btn">6</button>
-                <button class="btn">-</button>
+                <button type="button" onclick="log()" class="btn">log</button>
+                <button  class="btn" >7</button>
+                <button type="button" class="btn" >8</button>
+                <button type="button" class="btn" >9</button>
+                <button type="button" class="btn" >&Cross;</button>
 
 
-                <button onclick="cos()" class="btn">cos</button>
-                <button class="btn">1</button>
-                <button class="btn">2</button>
-                <button class="btn">3</button>
-                <button class="btn">+</button>
+                <button type="button" onclick="sin()" class="btn">sin</button>
+                <button type="button" class="btn" >4</button>
+                <button type="button" class="btn" >5</button>
+                <button type="button" class="btn" >6</button>
+                <button type="button" class="btn" >-</button>
+
+
+                <button type="button" onclick="cos()" class="btn">cos</button>
+                <button type="button" class="btn" >1</button>
+                <button type="button" class="btn" >2</button>
+                <button type="button" class="btn" >3</button>
+                <button type="button" class="btn" >+</button>
                 
 
-                <button onclick="tan()" class="btn">tan</button>
-                <button class="btn" onclick="display('%')">%</button>
-                <button class="btn">0</button>
-                <button class="btn">.</button>
-                <button class="equal btn" onclick="result()">=</button>
+                <button type="button" onclick="tan()" class="btn">tan</button>
+                <button type="button" class="btn" >%</button>
+                <button type="button" class="btn" >0</button>
+                <button type="button" class="btn" >.</button>
+                <button type="button" class="equal btn" id="equal" onclick="result()">=</button>
                 
-
+               
             </div>
         </div>
     </section>
@@ -72,6 +71,8 @@
             <a href="https://github.com/ParnaRoyChowdhury777" target="_blank"><i class='bx bxl-github' style='color:#111010'  ></i></a>
         </div>
     </footer>
-    <script src="app.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 </html>

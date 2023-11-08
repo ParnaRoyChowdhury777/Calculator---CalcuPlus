@@ -1,8 +1,8 @@
 const result = document.getElementById("output");
 const btn = document.querySelectorAll(".btn");
 
-for(item of btn)
-item.addEventListener("onclick",(e)=>{
+for(item of btn){
+item.addEventListener("click",(e)=>{
     btn_text = e.target.innerText;
 
     if(btn_text == "x"){
@@ -19,6 +19,7 @@ item.addEventListener("onclick",(e)=>{
 
     result.value += btn_text;
 });
+}
 
 function result(){
     try{
@@ -74,4 +75,7 @@ function fact(){
     result.value = f;
 }
 
+function sqrt(){
+    result.value = Math.sqrt(result.value);
+}
 

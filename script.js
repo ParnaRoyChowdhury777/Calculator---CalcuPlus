@@ -23,7 +23,12 @@ item.addEventListener("click",(e)=>{
 }
 
 function result(){
+    try{
         screen.value = eval(screen.value);
+    }
+    catch(error){
+        alert("Invalid!");
+    }
 }
 
 function clear(){

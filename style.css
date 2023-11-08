@@ -97,13 +97,31 @@ footer{
 }
 
 @media (max-width: 768px) {
-    footer {
-        font-size: 16px; 
+    input {
+        width: 15rem;
+        font-size: 16px;
+    }
+
+    .btn, .button {
+        height: 40px;
+        width: 40px;
+        font-size: 16px;
     }
 }
 
 @media (max-width: 480px) {
-    footer {
+    input {
+        width: 12rem;
         font-size: 14px;
+    }
+
+    .btn, .button {
+        height: 36px;
+        width: 36px;
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 12px;
     }
 }

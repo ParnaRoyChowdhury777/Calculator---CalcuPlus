@@ -51,7 +51,7 @@ input{
     border: none;
     border-radius: 20px;
     margin: 8px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .btn:hover{
@@ -75,10 +75,20 @@ input{
     background-color: rgb(59, 139, 176);
 }
 
+.ac-button{
+    color: red;
+}
+
 footer{
     text-align: center;
     font-size: 20px;
     position: relative;
     bottom: 4rem;
 }
+
+.footer-text{
+    color: rgb(59, 139, 176);
+    font-weight: bolder;
+}
+
 

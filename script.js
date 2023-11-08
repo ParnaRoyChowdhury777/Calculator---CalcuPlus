@@ -31,7 +31,7 @@ function result(){
     }
 }
 
-function clear(){
+function clearScreen(){
     screen.value = "";
 }
 

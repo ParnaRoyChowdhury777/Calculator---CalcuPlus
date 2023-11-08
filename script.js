@@ -23,9 +23,7 @@ item.addEventListener("click",(e)=>{
 }
 
 function result(){
-    try{
         screen.value = eval(screen.value);
-    }
 }
 
 function clear(){

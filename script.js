@@ -67,17 +67,17 @@ function log(){
 function fact(){
     let i, num, f;
     f = 1;
-    num = result.value;
+    num = screen.value;
 
     for(i=1;i<=num;i++){
         f = f * i;
     }
 
-    result.value = f;
+    screen.value = f;
 }
 
 function sqrt(){
-    result.value = Math.sqrt(result.value);
+    screen.value = Math.sqrt(screen.value);
 }
 
 

@@ -32,7 +32,7 @@ function result(){
 }
 
 function clear(){
-    screen.value = "";
+    screen.value = " ";
 }
 
 function pi(){

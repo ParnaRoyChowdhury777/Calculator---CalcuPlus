@@ -19,7 +19,7 @@
 }
 
 .calculator{
-    padding: 10px 10px 0 10px;
+    padding: 15px;
     display: grid;
     border: 1px solid powderblue;
     box-shadow: inset 1px 2px 10px rgba(175, 228, 255, 0.5), inset -1px -2px 10px rgba(175, 228, 255, 0.5);
